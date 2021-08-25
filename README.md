@@ -11,8 +11,6 @@ If you have any questions, you can consult the following email address, we will 
 
 技术支持（Technical support）：1553061986@QQ.COM
 
-销售业务（Sales business）：3050619761@QQ.COM
-
 根据您自已的电路板型号，选择到对应的文件夹目录，里面有关于这个板子所要用到的飞行控制器固件，电调固件，接线图等。
 
 According to your own product, select the corresponding folder directory, which contains the flight controller firmware, ESC firmware, wiring diagram, etc. to be used for this board.
