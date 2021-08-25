@@ -1,0 +1,27 @@
+board_name JHEH743
+
+# feature
+feature -TELEMETRY
+feature -RSSI_ADC
+feature -AIRMODE
+feature MOTOR_STOP
+
+# led
+led 0 8,7::CB:8
+led 1 9,7::CB:8
+led 2 10,7::CB:8
+led 3 11,7::CB:8
+
+# master
+set gyro_to_use = FIRST
+set mag_hardware = NONE
+set serialrx_provider = SBUS
+set motor_pwm_protocol = DSHOT600
+set ibata_scale = 120
+set osd_vbat_pos = 2282
+set osd_ah_sbar_pos = 2254
+set osd_ah_pos = 2126
+set osd_current_pos = 2432
+set osd_avg_cell_voltage_pos = 2346
+
+save
