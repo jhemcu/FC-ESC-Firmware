@@ -1,4 +1,4 @@
-![Betaflight](docs/assets/images/bf_logo.png)
+![FC-ESC-Firmware/](/bf_logo.png)
 
 ==》》关于如何下载文件：找到需要下载的文件，鼠标右键“另存为”，这样就可以文件保存在本地硬盘。
 
