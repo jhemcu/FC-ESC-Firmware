@@ -2,6 +2,7 @@
 
   2.4G里包括 EP24S,SP24S,RX24T接收机固件
   915M 868M  包括 ELRS 900RX 接收机固件
+  ELRS.LUA 这个是放到OPEN TX 遥控器里面的脚本文件
   
 固件是无密码的
 
