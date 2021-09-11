@@ -2,6 +2,10 @@
 
   2.4G里包括 EP24S,SP24S,RX24T接收机固件
   915M 868M  包括 ELRS 900RX 接收机固件
-
-
+  
 固件是无密码的
+
+ExpressLRS-Configurator Download(配置软件下载)：https://github.com/ExpressLRS/ExpressLRS-Configurator/releases
+
+ExpressLRS 开源地址：https://github.com/ExpressLRS/ExpressLRS
+
