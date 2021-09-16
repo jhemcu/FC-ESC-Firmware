@@ -1,24 +1,27 @@
-F4-openlager ���ٴ��ں�ϻ��
+F4-openlager 高速串口黑匣子
 
-    ��������Ѿ�ϰ��ʹ�ø����ϻ�����ݷ�������������PID���˲�������Ŀǰ�ܶ�ɿض������������ĺ�ϻ�ӣ����ص���ֻ��8-32MB���ر���AIO�ܶ������Ϊ�ռ����ƣ��޷����ô�������ϻ�ӣ���˳����˿�Դ��F4-openlager ���ٴ��ں�ϻ�ӡ�
+    不少玩家已经习惯使用各类黑匣子数据分析软件来调整PID和滤波参数，目前很多飞控都不带大容量的黑匣子，板载的又只有8-32MB，特别是AIO很多更是因为空间限制，无法放置大容量黑匣子，因此出现了开源的
+    F4-openlager 高速串口黑匣子。
 
-	��Դ��ַ��https://github.com/d-ronin/openlager
+    开源地址：https://github.com/d-ronin/openlager
 
-���磺+5V
-�ӿڣ�UART
-
-
-    Micro SD���Ա�����F4-openlagerģ��ͷɿؽ�����ȷ�����ӣ����ӷ����ν���ͼ��BetaFlight����վ������Ӻ�ϻ�ӵĶ˿ڹ��ܣ�������UART7Ϊ��ʾ,ѡ��Blackbox logging, ������2000000�������ϻ�ӽ��棬ѡ��Serial Port, 2KHZ, GYRO_SCALED,(Black logging rate/mode�������������ʵ������ѡ��)��ÿһ��������ɺ�㱣�沢������ť��
-
-ָʾ�ƺ��壺
-
-�����ƣ���Դ����
-�����𣺼�⵽SD����׼����������
-������������SD��
-���ƿ�����ң����������Ż���֣���ϻ������д��ɿش��ص�����
+供电：+5V
+接口：UART
 
 
-��ϻ���ļ��Ķ�ȡ��
+    Micro SD卡自备，将F4-openlager模块和飞控进行正确的连接，连接方法参接线图，BetaFlight地面站设置外接黑匣子的端口功能，这里以UART7为演示,选择Blackbox logging, 波特率2000000。进入黑匣子
+    界面，选择Serial Port, 2KHZ, GYRO_SCALED,(Black logging rate/mode这两项根据自已实际需求选择)。每一项设置完成后点保存并重启按钮。
 
-��SD����LOG000�ļ������������ϣ�ÿ���ϵ��ļ�����Զ���1��������CFG�ļ��Ǻ�ϻ�������ļ���������Բ��õ�������LOG000�Ǳ��ν��������ɵļ�¼�ļ�����Betaflight Blackbox Explorer �������Դ򿪣��Ϳ��Կ�����¼�ķ��������ˡ�
+指示灯含义：
+
+红亮灯：电源正常
+蓝灯灭：检测到SD卡，准备工作就绪
+蓝灯慢闪：无SD卡
+蓝灯快闪：遥控器解锁后才会出现，黑匣子正常写入飞控传回的数据
+
+
+黑匣子文件的读取：
+
+将SD卡的LOG000文件导出到电脑上（每次上电文件序号自动加1），其中CFG文件是黑匣子配置文件，这个可以不用导出来。LOG000是本次解锁后生成的记录文件，用Betaflight Blackbox Explorer 软件可以打开，就
+可以看到记录的飞行数据了。
 
