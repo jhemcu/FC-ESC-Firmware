@@ -33,3 +33,5 @@ BLHELI_32电调固件下载（BLHELI_32 ESC firmware download）：https://githu
 BLHELI_S/32 电调调参下载（Configurato download）：https://www.mediafire.com/folder/dx6kfaasyo24l/BLHeliSuite
 
 BF非正试版（超前测试用）：https://github.com/betaflight/betaflight-configurator-nightlies/releases/
+
+F4-openlager(串口高速黑匣子)：  https://github.com/d-ronin/openlager
