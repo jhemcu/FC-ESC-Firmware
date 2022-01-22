@@ -21,11 +21,13 @@ HEX文件随着BF团队的更新，版本也会更新，我们这里上传的只
 The HEX file will be updated with the update of the BF team. What we upload here is just for reference. In order to guide you not to flash the wrong firmware and configuration files.if you need the latest BF firmware. You can enter:
 
 BF飞控固件下载(BF Flight control firmware download)：https://github.com/betaflight/betaflight/releases
+
 INAV飞控固件下载(INAV Flight control firmware download)：https://github.com/iNavFlight/inav/releases
 
 BF飞控配置文件下载(BF Flight control configuration file download)：https://github.com/betaflight/unified-targets/tree/master/configs/default
 
 BF飞控地面站下载（BF Betaflight Configurato）：https://github.com/betaflight/betaflight-configurator/releases
+
 INAV飞控地面站下载（INAV Betaflight Configurato）：https://github.com/iNavFlight/inav-configurator/releases
 
 BLHELI_S 电调固件下载（BLHELI_S ESC firmware download）：https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs/Hex%20files
