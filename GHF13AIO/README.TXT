@@ -5,3 +5,5 @@
 HEX文件随着BF团队的更新，版本也会更新，我们这里上传的只是做参考，为了指导您不要刷错固件和配置文件，需要最新的BF固件，可以进入：
 HEX下载：https://github.com/betaflight/betaflight/releases
 配置文件下载：https://github.com/betaflight/unified-targets/tree/master/configs/default
+
+需要INAV固件的，查找INAV MATEKF411.HEX
