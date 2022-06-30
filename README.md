@@ -45,5 +45,8 @@ BF非正试版（超前测试用）：https://github.com/betaflight/betaflight-c
 INAV非正试版（超前测试用）：http://seyrsnys.myzen.co.uk/inav-configurator-next/
 
 F4-openlager(串口高速黑匣子)：  https://github.com/d-ronin/openlager
+                               https://github.com/betaflight/blackbox-log-viewer/releases
+                               
+                               
+INAV固件编译方法: https://github.com/iNavFlight/inav/blob/master/docs/development/Building%20in%20Windows%2010%20or%2011%20with%20Linux%20Subsystem.md
 
-                              https://github.com/betaflight/blackbox-log-viewer/releases
