@@ -38,6 +38,8 @@ BLHELI_32电调固件下载（BLHELI_32 ESC firmware download）：https://githu
 
 BLHELI_S/32 电调调参下载（Configurato download）：https://www.mediafire.com/folder/dx6kfaasyo24l/BLHeliSuite
 
+bluejay 蓝鸟电调固件下载： https://github.com/mathiasvr/bluejay
+
 BLHELI 配置软件下载（BLHeli Configurator download）：https://github.com/blheli-configurator/blheli-configurator/releases
 
 BF非正试版（超前测试用）：https://github.com/betaflight/betaflight-configurator-nightlies/releases/
