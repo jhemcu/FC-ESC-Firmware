@@ -22,13 +22,9 @@ The HEX file will be updated with the update of the BF team. What we upload here
 
 BF飞控固件下载(BF Flight control firmware download)：https://github.com/betaflight/betaflight/releases
 
-INAV飞控固件下载(INAV Flight control firmware download)：https://github.com/iNavFlight/inav/releases
-
 BF飞控配置文件下载(BF Flight control configuration file download)：https://github.com/betaflight/unified-targets/tree/master/configs/default
 
 BF飞控地面站下载（BF Betaflight Configurato）：https://github.com/betaflight/betaflight-configurator/releases
-
-INAV飞控地面站下载（INAV Betaflight Configurato）：https://github.com/iNavFlight/inav-configurator/releases
 
 BLHELI_S 电调固件下载（BLHELI_S ESC firmware download）：https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs/Hex%20files
 
@@ -46,11 +42,14 @@ BLHELI 配置软件下载（BLHeli Configurator download）：https://github.com
 
 BF非正试版（超前测试用）：https://github.com/betaflight/betaflight-configurator-nightlies/releases/
 
-INAV非正试版（超前测试用）：http://seyrsnys.myzen.co.uk/inav-configurator-next/
-
 F4-openlager(串口高速黑匣子)：  https://github.com/d-ronin/openlager      
                                https://github.com/betaflight/blackbox-log-viewer/releases
                                
-                               
+INAV飞控固件下载(INAV Flight control firmware download)：https://github.com/iNavFlight/inav/releases           
+
+INAV飞控地面站下载（INAV Betaflight Configurato）：https://github.com/iNavFlight/inav-configurator/releases      
+
+INAV地面站非正试版（超前测试用）：http://seyrsnys.myzen.co.uk/inav-configurator-next/
+
 INAV固件编译方法: https://github.com/iNavFlight/inav/blob/master/docs/development/Building%20in%20Windows%2010%20or%2011%20with%20Linux%20Subsystem.md
 
