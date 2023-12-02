@@ -51,4 +51,3 @@ INAV飞控固件下载(INAV Flight control firmware download)：https://github.c
 
 INAV飞控地面站下载（INAV Betaflight Configurato）：https://github.com/iNavFlight/inav-configurator/releases      
 
-INAV地面站非正试版（超前测试用）：http://seyrsnys.myzen.co.uk/inav-configurator-next/
