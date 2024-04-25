@@ -23,6 +23,7 @@ The HEX file will be updated with the update of the BF team. What we upload here
 BF飞控固件下载(BF Flight control firmware download)：https://github.com/betaflight/betaflight/releases
 
 BF飞控配置文件下载(BF Flight control configuration file download)：https://github.com/betaflight/unified-targets/tree/master/configs/default
+
                                                                 https://github.com/betaflight/config
 
 BF飞控地面站下载（BF Betaflight Configurato）：https://github.com/betaflight/betaflight-configurator/releases
