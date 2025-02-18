@@ -1,0 +1,46 @@
+board_name JHEF745V2
+manufacturer_id JHEF
+
+# feature
+feature SERVO_TILT
+feature RANGEFINDER
+feature LED_STRIP
+feature DISPLAY
+feature OSD
+feature CHANNEL_FORWARDING
+feature TRANSPONDER
+
+# led
+led 0 8,7::CB:8
+led 1 9,7::CB:8
+led 2 10,7::CB:8
+led 3 11,7::CB:8
+
+# master
+set dshot_bidir = ON
+set osd_vbat_pos = 2349
+set osd_ah_sbar_pos = 2287
+set osd_ah_pos = 2062
+set osd_current_pos = 2443
+set osd_compass_bar_pos = 2411
+set osd_warnings_pos = 14731
+set osd_displayport_device = AUTO
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = AUTO
+set gyro_1_sensor_align = CW90
+set gyro_1_align_yaw = 900
+
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 100
+set pitch_rc_rate = 100
+set yaw_rc_rate = 100
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+save
