@@ -1,0 +1,36 @@
+
+board_name JHEF722HD
+manufacturer_id JHEF
+
+# feature
+feature SERVO_TILT
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+feature CHANNEL_FORWARDING
+
+# led
+led 0 8,5::CB:8
+led 1 9,5::CB:8
+led 2 10,5::CB:8
+led 3 11,5::CB:8
+
+# aux
+aux 0 40 9 1300 2100 0 0
+
+# master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set mag_hardware = NONE
+set dshot_bidir = ON
+set pid_process_denom = 2
+set osd_vbat_pos = 2380
+set osd_current_pos = 2443
+set osd_warnings_pos = 14729
+set osd_avg_cell_voltage_pos = 2316
+set osd_displayport_device = AUTO
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = AUTO
+
+save
