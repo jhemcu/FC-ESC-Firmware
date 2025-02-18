@@ -1,0 +1,29 @@
+board_name JHEF411
+manufacturer_id JHEF
+
+# feature
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dshot_bidir = ON
+set ibata_scale = 270
+set ibata_offset = -300
+set pid_process_denom = 2
+set osd_vbat_pos = 2349
+set osd_crosshairs_pos = 2286
+set osd_ah_sbar_pos = 2287
+set osd_ah_pos = 2159
+set osd_current_pos = 2433
+set osd_warnings_pos = 14730
+set osd_avg_cell_voltage_pos = 2413
+set osd_displayport_device = AUTO
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = AUTO
+set gyro_1_sensor_align = CW90
+set gyro_1_align_yaw = 900
+SAVE
