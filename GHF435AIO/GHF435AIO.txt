@@ -1,0 +1,48 @@
+board_name JHEF435
+manufacturer_id JHEF
+
+# feature
+feature RANGEFINDER
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 64 115200 57600 0 115200
+
+# led
+led 0 8,8::CB:8
+led 1 9,8::CB:8
+led 2 10,8::CB:8
+led 3 11,8::CB:8
+
+# master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set mag_hardware = NONE
+set align_board_yaw = -45
+set pid_process_denom = 16
+set osd_vbat_pos = 2380
+set osd_current_pos = 2443
+set osd_warnings_pos = 14729
+set osd_avg_cell_voltage_pos = 2316
+set osd_displayport_device = AUTO
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = AUTO
+set gyro_1_sensor_align = CW180
+set gyro_1_align_yaw = 1800
+
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 100
+set pitch_rc_rate = 100
+set yaw_rc_rate = 100
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+SAVE
