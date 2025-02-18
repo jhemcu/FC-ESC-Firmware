@@ -1,0 +1,46 @@
+GHF745AIO采用STM32F745+MPU6000陀螺仪实现稳定的飞行效果，内置5V/2.5A,10V/2A的BEC,内置OSD模块，气压计和黑匣子。
+无刷电调部分采用ST G071的32位配合进口大功率MOS，内置了TVS模块，无需在外部分焊接TVS模块了。
+
+Brand name：     JHEMCU
+Model:	           GHF745AIO
+MCU：	           STM32F745/216MHZ
+IMU:	           MPU6000/Gyro/Accel
+OSD：	           AT7456E
+Baro：	           YES
+Blackbox：         8MB
+Input voltage:    3S-6S（11.5V-26V）
+5V-BEC：	           5V/2.5A ±0.1V 
+10V-BEC:	          10V/2A ±0.1V
+Receiver：          ELRS(CRSF), TBS(CRSF) ,SBUS,IBUS,DSM2,DSMX
+HD接口：	          YES
+USART:	          UART1,UART2,UART3,UART4,UART5,UART6
+IIC：	          IIC1
+Led_Strip:	          YES
+Buzzer:	          5V
+ESC signal:        Dshot150，Dshot300，Dshot600
+USB:	         Micro USB
+Current port：  YES
+Voltage sensor：YES
+DFU button：   YES
+FC Firmware:     betaflight_4.4.2 JHEF745.HEX
+Size:	         33*33MM
+Mounting Hole:25.5*25.5*3MM
+Weight:	         7.3g
+
+ESC Current:      40A/50A
+ESC MCU：        STM32G071
+ESC TYPE:	          Blheli_32
+ESC Firmware:   JHEMCU_G071_ESC_Multi_32_9.HEX
+
+Packaging List：
+
+GHF745AIO                             * 1
+XT60                                        * 1
+M2 * 6.5MM shock absorber * 4
+50A-14AWG wire                   * 2
+(40A-16AWG wire                  * 2)
+O3 connecting line 5P to 6P  * 1
+470UF/35V capacitor             * 1
+TYPE-C adapter board           * 1
+28AWG Wire                          * 4
+Welding practice board         * 1
